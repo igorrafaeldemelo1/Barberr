@@ -1,0 +1,124 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+}
+
+.bk{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.box-1{
+    height: 93%;
+}
+
+li:hover{
+    background: red;
+}
+.but-1{
+    background: rgb(77, 2, 12);
+    color: rgb(218, 210, 210);
+    border: 0ch;
+}
+
+.but-2{
+    background: rgb(17, 190, 17);
+    color: rgb(218, 210, 210);
+    border: 0ch;
+}
+
+.img-1{
+    height: 390px;
+   padding-top: 30px;
+}
+
+.img-2{
+    height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .img-2 {
+      display: none;
+    }
+}
+
+.line{
+    margin-top: 150px;
+    height: 2px;
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(360deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FF0000", GradientType=1 );;
+}
+
+.servico{
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.serv{
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.img-icon{
+    height: 120px;
+}
+
+.icons{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.line-2{
+    margin-top: 30px;
+    height: 3px;
+    background: rgb(139, 0, 0);
+}
+
+.text-title{
+    color: rgb(48, 0, 0);
+}
+
+.img-perfil{
+    background-image: url(img/courtney-henry.jpg);
+    height: 350px;
+    width: 300px;
+    border-bottom: 0.4rem solid rgb(117, 1, 1);
+}
+
+.img-perfil-1{
+    background-image: url(img/wade-warren.jpg);
+    background-image: cover;
+    height: 350px;
+    width: 300px;
+    border-bottom: 0.4rem solid rgb(117, 1, 1);
+}
+
+.img-perfil-2{
+    background-image: url(img/kristin-watson0.jpg);
+    height: 350px;
+    width: 300px;
+    border-bottom: 0.4rem solid rgb(117, 1, 1);
+}
+
+.name-perfile{
+    color: antiquewhite;
+    margin-top: 300px;
+}
+
+
+#contact{
+    margin-top: 150px;
+}
+
+.fot{
+    margin-top: 50px;
+    background: rgb(85, 1, 1);
+    height: 150px;
+    font-size: 13px;
+    padding-top: 100px;
+    
+}
+
